@@ -1,0 +1,177 @@
+body{
+    background: url(https://cdn.trendhunterstatic.com/phpthumbnails/380/380171/380171_1_800.jpeg);
+    margin: 0%;
+    padding: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(9, 253, 253);
+    height: 35px;
+    margin-top: -0.3%;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+ul{
+    top: -35%;
+    position: absolute;
+    display: flex;
+    padding-left: 3px;
+}
+
+li{
+    padding-left: 105.5px;
+    list-style-type: none;
+}
+h1{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    margin-top: 3%;
+    font-size: 30px;
+}
+.gallery{
+    display: flex;
+    margin-left: 15%;
+}
+.next{
+    position: relative;
+    left: 7%;
+    top: 210px;
+    color: blue;
+}
+.prev{
+    position: relative;
+    right: 7%;
+    top: 210px;
+    color: blue;
+}
+.about{
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 1%;
+    background: rgb(243, 242, 242);
+    width: 70%;
+    height: 500px;
+    align-items: center;
+    border-radius: 35px;
+}
+#about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 50%;
+    margin: 10px;
+
+}
+.container{
+    height: 500px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    border-radius: 35px;
+    left: 72%;
+    margin-top: -29.8%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+    display: flex;
+    position: relative;
+    height: 150px;
+    top: 75px;
+}
+.icons{
+    position: absolute;
+        top: 60%;
+        left: 88%;
+}
+.socialmedia{
+    position: absolute;
+    top: 72%;
+    left: 78%;
+    font-size: 121%;
+}
+.mail{
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    font-size: 121%;
+}
+.head{
+    color: rgb(96, 236, 96);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    font-size: 121%;
+    font-weight: 600;
+}
+.number{
+    position: absolute;
+    top: 44%;
+    left: 1%;
+    font-size: 121%;
+    line-height: 15px;
+}
+.contact{
+    position: absolute;
+    top: 40%;
+    left: 50.5%;
+    font-size: 121%;
+}
+.info {
+    font-family: cursive;
+    position: absolute;
+    top: 24%;
+    left: 5%;
+    word-spacing: 17px;
+    letter-spacing: 2px;
+}
+#notice{
+    position: relative;
+    top: 2%;
+    left: 16%;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: 600;
+    color: cyan;
+}
+.board{
+    position: relative;
+    margin-top: -25%;
+    margin-left: 1%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+#noticelist{
+    display: block;
+    position: relative;
+    margin-top: 50%;
+    margin-left: -20%;
+    line-height: 180%;
+    font-size: 100%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    list-style-type: circle;
+    
+}
+.list{
+    position: relative;
+    height: 25px;
+    width: 300px;
+    background: rgb(236, 177, 177);
+    padding: 5px;
+    margin: 5px;
+    top:6px;
+    left:25%;
+    border-radius: 7px;
+
+}
